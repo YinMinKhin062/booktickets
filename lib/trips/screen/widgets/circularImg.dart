@@ -9,6 +9,7 @@ class CircularImg extends StatelessWidget {
       required this.radius,
       this.showBorder,
       this.borderColor,
+      this.fit=BoxFit.cover,
       this.width = 50,
       this.height = 50});
 
@@ -18,6 +19,7 @@ class CircularImg extends StatelessWidget {
   final double height;
   final bool? showBorder;
   final Color? borderColor;
+  final BoxFit fit;
 
   @override
   Widget build(BuildContext context) {

@@ -12,4 +12,11 @@ class ImgContents {
 
   static const String userImg =
       "https://media.istockphoto.com/id/1460124878/photo/social-media-connection-and-woman-typing-on-a-phone-for-communication-app-and-chat-web-search.jpg?s=1024x1024&w=is&k=20&c=OEumglh0LddR8e2IG7FWSK-lG76tUhjhQGksCY64ubM=";
+
+  static const String availableFlight=
+      // "https://marketplace.canva.com/EAF5FxQlSGQ/1/0/1600w/canva-blue-and-white-illustrated-sky-and-airplane-desktop-wallpaper-zYA4XGHAYo0.jpg";
+    "https://www.shutterstock.com/image-vector/airplane-cloud-blue-passport-luggage-600nw-2305845281.jpg";
+
+  static const String airKbz="https://www.airlineratings.com/wp-content/uploads/uploads/Air_KBZ_Logo1234.jpg";
+   
 }

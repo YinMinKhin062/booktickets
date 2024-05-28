@@ -1,5 +1,6 @@
 import 'package:booktickets/constants/Sizes.dart';
 import 'package:booktickets/trips/controllers/home/trip/bookingController.dart';
+import 'package:booktickets/trips/screen/homeWidgets/avaliableFlight/availableFlight.dart';
 import 'package:booktickets/trips/screen/homeWidgets/tripForm/tripFormComponents/FromToComponent.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -42,7 +43,9 @@ class OneWayBookingForm extends StatelessWidget {
         SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(const AvailableFlight());
+                },
                 child: const Text(
                   "Search Flight",
                 )))

@@ -26,14 +26,12 @@ class Home extends StatelessWidget {
                 //header img, drawer & search box
                 HeaderSection(),
 
-
                 SizedBox(
                   height: Sizes.spaceBtn,
                   // height: Sizes.defaultSpace * 2,
                 ),
 
-                TripTypeTabBar(
-                    TripTypes: ["One Way", "Round Trip", "Multi City"]),
+                TripTypeTabBar(TripTypes: ["One Way", "Round Trip"]),
 
                 SizedBox(height: Sizes.spaceBtn),
               ],
